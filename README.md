@@ -42,6 +42,20 @@ File with main module is added to the end of the stream.
 angular.module('mainModule', ['module1', 'module2', 'module3']);
 ```
 
+## FAQ
+
+### I got an error `Error in plugin 'gulp-ng-annotate': error: couldn't process source due to parse error`
+
+That's not a `gulp-ng-annotate` or `ng-annotate` error: you passed the invalid JavaScript code to the plugin. Check your source code near the specified place.
+
+### I need the latest version of `ng-annotate`
+
+Make sure you are using the latest version of `gulp-ng-annotate`. Also try to reinstall/update it to get the latest suitable version of `ng-annotate` from npm.
+
+### I need a new annotating feature/annotations are incorrect
+
+Report it to ng-annotate's [bugtracker](https://github.com/olov/ng-annotate/issues). `gulp-ng-annotate` is just a wrapper around `ng-annotate`.
+
 ## License
 
 gulp-ng-annotate - Add angularjs dependency injection annotations with ng-annotate
