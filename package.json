@@ -1,6 +1,6 @@
 {
   "name": "gulp-ng-annotate-plus",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Add angularjs dependency injection annotations with ng-annotate plus",
   "main": "index.js",
   "engines": {
